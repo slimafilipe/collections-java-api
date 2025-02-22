@@ -51,6 +51,10 @@ public class ConjuntoPalavrasUnicas {
         conjuntoPalavrasUnicas.exibirPalavrasUnicas();
 
         conjuntoPalavrasUnicas.verificarPalavra("Bus");
+
+        conjuntoPalavrasUnicas.removerPalavra("Car");
+
+        conjuntoPalavrasUnicas.exibirPalavrasUnicas();
    }
 
 }
