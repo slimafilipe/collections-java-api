@@ -35,9 +35,10 @@ public class ConjuntoConvidados {
 
     public static void main(String[] args) {
         ConjuntoConvidados conjuntoConvidados = new ConjuntoConvidados();
+        System.out.println("Total de convidados: " + conjuntoConvidados.contarConvidados());
         conjuntoConvidados.adicionarConvidado("Nome 1", 1);
         conjuntoConvidados.adicionarConvidado("Nome 2", 2);
-        conjuntoConvidados.adicionarConvidado("Nome 3", 3);
+        conjuntoConvidados.adicionarConvidado("Nome 3", 2);
         conjuntoConvidados.adicionarConvidado("Nome 4", 4);
         conjuntoConvidados.adicionarConvidado("Nome 5", 5);
         conjuntoConvidados.exibirConvidados();
